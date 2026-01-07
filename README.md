@@ -1,3 +1,0 @@
-# keepit
-keepdsmile
-yes
