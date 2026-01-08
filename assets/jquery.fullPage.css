@@ -82,11 +82,17 @@ html.fp-enabled,
     width: 0;
     border-width: 38.5px 34px 38.5px 0;
     border-color: transparent #fff transparent transparent;
+
+    filter: drop-shadow(0px 3px 3px #b2b2b2);
+
 }
 .fp-controlArrow.fp-next {
     right: 15px;
     border-width: 38.5px 0 38.5px 34px;
     border-color: transparent transparent transparent #fff;
+
+     filter: drop-shadow(0px 3px 3px #b2b2b2);
+     
 }
 .fp-scrollable {
     overflow: hidden;
