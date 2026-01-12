@@ -3,12 +3,24 @@
 
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-	<title>Keep It..:) Games | (:..We make fun</title>
-	<meta name="author" content="Keeep It..:) Games" />
-	<meta name="description" content="We make fun games" />
+	<title>Keep It..:) Games (:..We make fun</title>
+	<meta name="author" content="Keep It..:) Games" />
+	<meta name="description" content="We make fun" />
 	<meta name="keywords"  content="keepit games" />
 	<meta name="Resource-type" content="Document" />
 
+	<meta property="og:title" content="Keeep It..:) Games"/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:url" content="https://keepdsmile.com/"/>
+    <meta property="og:image" content="https://keepdsmile.com/assets/keepitgames1280x720.png"/>
+    <meta property="og:description" content="We make fun"/>
+    <meta property="og:site_name" content="Keep It..:) Games"/>
+
+    <meta name="twitter:title" content="Keeep It..:) Games"/>
+    <meta name="twitter:url" content="https://keepdsmile.com/"/>
+    <meta name="twitter:description" content="We make fun"/>
+    <meta name="twitter:image:src" content="https://keepdsmile.com/assets/keepitgames1280x720.png"/>
+    <meta name="twitter:card" content="summary_large_image"/>   
 
 	<link rel="stylesheet" type="text/css" href="assets/jquery.fullPage.css" />
 	<link rel="stylesheet" type="text/css" href="assets/examples.css" />
@@ -133,7 +145,7 @@
 	    background-attachment: fixed; */
 	}
 	#section2{
-		background-image: url(assets/cyberbunnyBgClean00.png);
+		background-image: url(assets/cyberbunnyBg1920x1080g.png);
 		/*background-image: url(assets/tummy_slide_bg.jpg);*/
 		padding: 0 0 0 0;
 		background-position: top left;
@@ -143,7 +155,7 @@
 	}
 
 	#section3{
-		background-image: url(assets/cyberbunnyBgClean00.png);
+		background-image: url(assets/cyberbunnyBg21920x1080gg.png);
 		/*background-image: url(assets/contact_bg.jpg);*/
 		padding: 0 0 0 0;
 		background-position: bottom right;
@@ -257,6 +269,7 @@
 	.sectionNewsletterContainer {
 		border: 1px solid white;
 		padding: 20px;
+		background-color: rgba(0, 0, 0, 0.4);
 	}
 
 	.sectionNewsletterBtn {
@@ -308,6 +321,14 @@
 		font-size:1.6em; 
 		padding: 25px 10%;
 	}
+
+	.keepdsmilecom {
+		text-shadow: 2px 2px 3px #333, 0 0 4px #333;	
+
+		color:#fff; 
+		font-size:2.3em; 
+	}
+
 	</style>
 
 	<!--[if IE]>
@@ -318,6 +339,7 @@
 
 	<script src="assets/jquery.min.js"></script>
 	<script src="assets/jquery-ui.min.js"></script>
+	<script src="assets/js.cookie.min.js"></script>
 
 	<script type="text/javascript" src="assets/jquery.fullPage.js"></script>
 	<script type="text/javascript" src="assets/examples.js"></script>
@@ -333,6 +355,9 @@
 				menu: '#menu',
 				css3:false
 			});
+
+			$("#tooltip-1").tooltip();
+
 		});
 	</script>
 
@@ -340,10 +365,19 @@
 <body>
 
 <ul id="menu">
-    <li data-menuanchor="home" class="active"><a href="#home">Home</a></li>
+    <li data-menuanchor="home" class="active"><a href="#home"><img src="assets/keepitpixel.png" width="20" style="position:relative; top: 3px;" > Home</a></li>
     <li data-menuanchor="games"><a href="#games">Games</a></li>
     <li data-menuanchor="about"><a href="#about">About</a></li>
     <li data-menuanchor="contact"><a href="#contact">Contact</a></li>
+</ul>
+
+<ul id="menubottom">
+    <li data-menuanchor="cookies" style="float: left; cursor: pointer;"><a id="cookies"><img src="assets/cookiepixel.png" width="20" style="position:relative; top: 3px;"   > <span id="cookieText">Take a cookie</span></a></li>
+    <div style="float: right;top: -10px;
+    position: relative;">
+    	 <img src="assets/arrows.png" width="100" style="" >    	
+    </div>
+    
 </ul>
 
 <div id="fullpage">
@@ -366,7 +400,7 @@
 	<div class="section" id="section1">	
 
 		<div class="slide" id="slide3">
-			<h1>Ninja Juniors</h1>
+			<h1 >Ninja Juniors</h1>
 			<div class="gameDesc">
 				Join the ninja village in Ninja Juniors, a multiplayer isometric adventure where vibrant ninjas train together, master martial arts, and compete in playful mini-games.
 			</div>
@@ -531,9 +565,17 @@ It is said that "Smile..:)(:..", is the most beautiful expression of spiritual. 
 
 		</div>
 
+		
+
+		<div style="margin: 50px 0 0 0;">
+		<img src="assets/keepitpixel.png" width="60" style="position: relative; top: 15px;" > 
+		<span  class="keepdsmilecom">KEEP:DSMILE.COM</span>
+		</div>
+
 		<div class="sectionFooter">
 			<a href="tos.html">Terms of Service</a> | <a href="privacy.html">Privacy Policy</a>
 		</div>
+
 	</div>
 </div>
 

@@ -114,6 +114,69 @@ p{
 	padding: 0;
 	margin:0;
 }
+
+
+#menubottom li {
+	display:inline-block;
+	margin: 10px;
+	color: #000;
+	background:#fff;
+	background: rgba(255,255,255, 0.5);
+	-webkit-border-radius: 10px;
+            border-radius: 10px;
+}
+#menubottom li.active{
+	background:#666;
+	background: rgba(0,0,0, 0.5);
+	color: #fff;
+}
+#menubottom li a{
+	text-decoration:none;
+	color: #000;
+}
+#menubottom li.active a:hover{
+	color: #000;
+}
+#menubottom li:hover{
+	background: rgba(255,255,255, 0.8);
+}
+#menubottom li a,
+#menubottom li.active a{
+	padding: 9px 18px;
+	display:block;
+}
+#menubottom li.active a{
+	color: #fff;
+}
+#menubottom {
+    position: fixed;
+    bottom: 20px;
+    left: 0;
+    height: 40px;
+    z-index: 70;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.ui-tooltip {
+	position: relative;
+	top: 0;
+	left: 0;
+  background-color: #000; /* Black background */
+  color: #fff; /* White text color */
+  padding: 10px 15px;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  max-width: 300px;
+  /* Add shadows for effect */
+  -moz-box-shadow: 0 0 10px #000;
+  -webkit-box-shadow: 0 0 10px #000;
+  box-shadow: 0 0 10px #000;
+  z-index: 99999;
+}
+
+
 .twitter-share-button{
 	position: fixed;
 	z-index: 99;
